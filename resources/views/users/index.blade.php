@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <table class="table table-hover">
-            <thead>
+            <thead class="thead-dark">
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Email</th>
@@ -27,6 +27,20 @@
             @endforeach
             </tbody>
         </table>
+
+        {{ $users->links() }}
+
     </div>
 
 @endsection
+
+
+{{--
+test
+test numertel
+test nazwisko
+test@test.pl
+
+testtest
+
+--}}
